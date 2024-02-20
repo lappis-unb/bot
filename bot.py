@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 import os
 
 # Replace 'YOUR_BOT_TOKEN' with the token you get from BotFather on Telegram
-TOKEN = os.environ["BOT_TOKEN"]
+TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
 
 # Enable logging
